@@ -1,10 +1,12 @@
 import React from 'react';
 
 import Footer from '../../components/Footer';
+import Navbar from '../../components/Navbar/Front';
 
 const Home = () =>
 
     <React.Fragment>
+        <Navbar />
         <section className="hero is-fullheight is-danger is-bold">
             <div className="hero-body">
                 <div className="container">
@@ -13,7 +15,7 @@ const Home = () =>
                 </div>
             </div>
         </section>
-        <Footer/>
+        <Footer />
     </React.Fragment>
 
 export default Home
